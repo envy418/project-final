@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/003.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #888;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #888;
+}
+
+.login-box a {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+}
+
+.login-box {
+    width: 512px;
+    height: 512px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h2 {
+    top-margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+.login-box textarea {
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+.login-box input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+
+}
+
+.login-box textarea {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+
+}
+
+.login-box input[type="submit"],
+input[type="file"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #888;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #888;
+}
+
+.login-box input[type="file"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #888;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="file"]:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #888;
+
+}
+
+.dashboard {
+    width: 1024px;
+    height: 1024px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
